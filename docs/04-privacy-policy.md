@@ -539,7 +539,7 @@ If the website does not process criminal conviction data, this section may be om
 
 **Requirement:** If the website or service uses artificial intelligence systems for processing personal data, the information notice must disclose: (a) the existence of AI-driven processing, (b) the type of AI system and its purpose, (c) whether the AI system produces outputs that affect the data subject, (d) the right to human intervention where applicable.
 
-**Source:** Art. 13(2)(f) GDPR (automated decision-making); Art. 22 GDPR (decisions based solely on automated processing); Regulation (EU) 2024/1689 (AI Act), in particular Art. 50 (transparency obligations), Art. 26(7) (deployer obligations for high-risk AI), Art. 86 (right to explanation).
+**Source:** Art. 13(2)(f) GDPR (automated decision-making); Art. 22 GDPR (decisions based solely on automated processing); Regulation (EU) 2024/1689 (AI Act), in particular Art. 50 (transparency obligations), Art. 26(11) (deployer obligations for high-risk AI), Art. 86 (right to explanation).
 
 **Notes:** The AI Act (Reg. 2024/1689), published on 12 July 2024, introduces transparency obligations that complement the GDPR. Key provisions relevant to privacy notices:
 
@@ -547,7 +547,7 @@ If the website does not process criminal conviction data, this section may be om
 2. **Art. 50(2) — AI-generated content**: providers of AI systems that generate synthetic content (text, images, audio, video) must ensure that the output is marked in a machine-readable format as artificially generated or manipulated. If the website generates AI content visible to users (e.g., AI-written product descriptions, AI-generated images), this must be disclosed.
 3. **Art. 50(3) — Emotion recognition and biometric categorisation**: deployers of emotion recognition or biometric categorisation systems must inform exposed persons that such systems are in operation. These systems are subject to heightened transparency requirements.
 4. **Art. 50(4) — Deep fakes**: deployers who publish or distribute AI-generated content that resembles existing persons, places, or events must disclose that the content is artificially generated or manipulated.
-5. **Art. 26(7) — Deployer obligations for high-risk AI**: deployers of high-risk AI systems that make decisions about natural persons must inform those persons that they are subject to the use of the high-risk AI system. This is complementary to Art. 22 GDPR.
+5. **Art. 26(11) — Deployer obligations for high-risk AI**: deployers of high-risk AI systems that make decisions or assist in making decisions related to natural persons must inform those persons that they are subject to the use of the high-risk AI system. This is complementary to Art. 22 GDPR.
 6. **Art. 86 — Right to explanation**: affected persons have the right to obtain clear and meaningful explanations of the role of the AI system in the decision-making procedure and the main elements of the decision taken.
 
 Practical implications for privacy notices:
@@ -568,7 +568,7 @@ Practical implications for privacy notices:
 - The controller is liable for damage caused by processing that infringes the GDPR
 - The processor is liable only for damage caused by processing that does not comply with processor-specific obligations (Art. 28) or that goes beyond the controller's instructions
 - The controller is exempt from liability only if it proves that it is "not in any way responsible for the event giving rise to the damage" (Art. 82(3))
-- CJEU case law (C-300/21, Österreichische Post, 4 May 2023) confirms that non-material damage does not require a minimum threshold of seriousness — any infringement that causes distress, anxiety, or loss of control over personal data may give rise to compensation
+- CJEU case law (C-300/21, Österreichische Post, 4 May 2023) confirms that non-material damage does not require a minimum threshold of seriousness — however, the data subject must still demonstrate that an infringement caused actual damage (e.g. upset, loss of confidence, feeling of exposure) and a causal link between the infringement and the damage suffered
 
 If included in the information notice, a brief statement is sufficient: "You have the right to claim compensation if you suffer damage as a result of a violation of your data protection rights (Art. 82 GDPR)."
 

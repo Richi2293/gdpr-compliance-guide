@@ -330,7 +330,7 @@ See also [section 4.49](../docs/04-privacy-policy.md) in the EU-wide requirement
 
 ### IT-26 AI Act Implementation in Italy (Legge n. 132/2025)
 
-**Requirement:** Italy has adopted national implementation measures for the AI Act (Reg. 2024/1689) with Legge n. 132/2025 (in force since 10 October 2025). The law designates AGID (Agenzia per l'Italia Digitale) as the national notification authority and ACN (Agenzia per la Cybersicurezza Nazionale) as the national market surveillance authority and single point of contact with EU institutions. The Garante retains its existing competences, tasks and powers regarding the protection of personal data, including in the context of AI systems (Art. 20, comma 4). Banca d'Italia, CONSOB and IVASS retain their role as market surveillance authorities for the financial sector (pursuant to Art. 74(6) of the AI Act).
+**Requirement:** Italy has adopted national implementation measures for the AI Act (Reg. 2024/1689) with Legge n. 132/2025 (in force since 10 October 2025). The law designates AGID (Agenzia per l'Italia Digitale) as the national notifying authority and ACN (Agenzia per la Cybersicurezza Nazionale) as the national market surveillance authority and single point of contact with EU institutions. The Garante retains its existing competences, tasks and powers regarding the protection of personal data, including in the context of AI systems (Art. 20, comma 4). Banca d'Italia, CONSOB and IVASS retain their role as market surveillance authorities for the financial sector (pursuant to Art. 74(6) of the AI Act).
 
 **Source:** Regulation (EU) 2024/1689 (AI Act); Legge 23 settembre 2025, n. 132 (Disposizioni e deleghe al Governo in materia di intelligenza artificiale).
 

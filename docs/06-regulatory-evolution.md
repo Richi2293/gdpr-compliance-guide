@@ -45,7 +45,7 @@ The AI Act introduces transparency obligations that directly affect privacy noti
 
 1. **Art. 50(1) — AI interaction disclosure**: providers must inform users when they are interacting with an AI system (chatbots, virtual assistants, AI-powered customer service). This requires either a notice in the privacy policy or a just-in-time disclosure in the interface.
 2. **Art. 50(2) — AI-generated content marking**: synthetic content (text, images, audio, video) must be marked as AI-generated in a machine-readable format.
-3. **Art. 26(7) — High-risk AI deployer obligations**: deployers of high-risk AI (Annex III) must inform natural persons that they are subject to a high-risk AI system. Combined with Art. 22 GDPR, this creates a dual transparency obligation.
+3. **Art. 26(11) — High-risk AI deployer obligations**: deployers of high-risk AI (Annex III) that make decisions or assist in making decisions related to natural persons must inform those persons that they are subject to a high-risk AI system. Combined with Art. 22 GDPR, this creates a dual transparency obligation.
 4. **Art. 86 — Right to explanation**: affected persons have the right to clear explanations of AI-assisted decisions.
 
 **Interaction with GDPR:** The AI Act and GDPR apply cumulatively. Art. 2(7) AI Act explicitly states that the regulation is "without prejudice to" the GDPR. This means:
