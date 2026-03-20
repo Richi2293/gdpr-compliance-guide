@@ -288,3 +288,56 @@ The CJEU ruling of 1 October 2019 establishing that pre-ticked checkboxes do not
 **Source:** Art. 30 GDPR; Garante simplified ROPA template.
 
 **Notes:** The Garante provides a simplified ROPA template: [garanteprivacy.it — Records of processing activities](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9047529). In practice, any website that collects data through forms, analytics cookies, or marketing should maintain a ROPA. See also [section 5.2](../docs/05-controller-obligations.md) in the EU-wide requirements.
+
+---
+
+### IT-23 Special Categories of Data (Art. 2-sexies and 2-septies D.Lgs. 196/2003)
+
+**Requirement:** In Italy, the processing of special categories of data for reasons of substantial public interest (Art. 9(2)(g) GDPR) is permitted only if authorised by a law or regulation, or by the Garante's provisions, which specify the necessary measures and safeguards. The processing of genetic, biometric and health data requires compliance with specific additional measures established by the Garante.
+
+**Source:** [Art. 2-sexies D.Lgs. 196/2003](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196) (processing of special categories for substantial public interest); [Art. 2-septies D.Lgs. 196/2003](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196) (measures for genetic, biometric and health data); Provvedimento Garante n. 146/2019 (Prescrizioni relative al trattamento di categorie particolari di dati).
+
+**Notes:** Art. 2-sexies lists the areas of substantial public interest where the processing of special categories is permitted, including: access to documents, employment, tax obligations, social security, health, and others. Art. 2-septies mandates compliance with specific measures (misure di garanzia) prescribed by the Garante for genetic, biometric and health data — these measures are updated periodically and include requirements on storage, access controls, encryption, and retention. For websites: if the service processes health data (e.g., telemedicine platforms, medical appointment booking, wellness apps), the information notice must specify the applicable exception under Art. 9(2) GDPR and confirm compliance with the Garante's prescribed measures. See also [section 4.44](../docs/04-privacy-policy.md) in the EU-wide requirements.
+
+---
+
+### IT-24 Data Relating to Criminal Convictions (Art. 2-octies D.Lgs. 196/2003)
+
+**Requirement:** In Italy, the processing of personal data relating to criminal convictions and offences (Art. 10 GDPR) is permitted only if authorised by a legal provision or a Garante provision specifying the necessary safeguards for the rights and freedoms of data subjects.
+
+**Source:** [Art. 2-octies D.Lgs. 196/2003](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196).
+
+**Notes:** Art. 2-octies, comma 3, lists the areas of substantial public interest that constitute a legal basis for processing criminal conviction data, including: employment (hiring processes requiring criminal record certificates), financial services (anti-money laundering), public procurement (verification of contractor eligibility), and insurance. For websites: if the service collects criminal record data (e.g., in job application portals, vendor onboarding, or financial services KYC procedures), the information notice must specify the national law or Garante provision that authorises the processing. Consent alone is not sufficient as a legal basis for Art. 10 processing in Italy. See also [section 4.45](../docs/04-privacy-policy.md) in the EU-wide requirements.
+
+---
+
+### IT-25 Recruitment Data Processing (Italian Labour Law Provisions)
+
+**Requirement:** The processing of candidate data in the context of recruitment is subject to specific Italian labour law provisions in addition to the GDPR. In particular, Art. 8 of the Workers' Statute (Legge 300/1970) prohibits employers from investigating the political opinions, religious beliefs, trade union membership, and other aspects of the candidate's private life that are not relevant to the assessment of professional aptitude.
+
+**Source:** [Art. 8 Legge 300/1970 (Statuto dei Lavoratori)](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300); Art. 10 D.Lgs. 276/2003 (prohibition of certain investigations by employment agencies); Art. 9 GDPR; [Art. 2-sexies D.Lgs. 196/2003](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196).
+
+**Notes:** Key Italian-specific rules for recruitment:
+1. **Prohibition of irrelevant investigations (Art. 8 L. 300/1970)**: the employer (and by extension the website) must not collect data on political opinions, religious beliefs, trade union membership, or other aspects of the candidate's private life that are not relevant to professional aptitude. This includes not requesting such information in application forms.
+2. **Disability and protected categories (L. 68/1999)**: processing of disability data for mandatory hiring quotas (collocamento obbligatorio) is authorised under Art. 9(2)(b) GDPR and Art. 2-sexies D.Lgs. 196/2003. The information notice must specify this legal basis.
+3. **Retention of unsolicited CVs**: the Garante has consistently held that spontaneous CV submissions must be accompanied by the information notice under Art. 13 GDPR, and retention requires consent for a defined period (typically 12 months). The privacy notice should provide clear instructions for candidates submitting unsolicited applications.
+4. **Criminal record certificates**: for positions where criminal record verification is required by law (e.g., work with minors per D.Lgs. 39/2014), the legal basis is Art. 6(1)(c) GDPR combined with Art. 2-octies D.Lgs. 196/2003.
+5. **Automated candidate screening**: if AI-based tools are used for CV screening or candidate assessment, the Italian Garante considers this to fall under Art. 22 GDPR, requiring specific disclosure and the right to human intervention. The Garante has also expressed concern about algorithmic bias in recruitment.
+
+See also [section 4.49](../docs/04-privacy-policy.md) in the EU-wide requirements.
+
+---
+
+### IT-26 AI Act Implementation in Italy (Legge n. 132/2025)
+
+**Requirement:** Italy has adopted national implementation measures for the AI Act (Reg. 2024/1689) with Legge n. 132/2025 (in force since 10 October 2025). The law designates AGID (Agenzia per l'Italia Digitale) as the national notifying authority and ACN (Agenzia per la Cybersicurezza Nazionale) as the national market surveillance authority and single point of contact with EU institutions. The Garante retains its existing competences, tasks and powers regarding the protection of personal data, including in the context of AI systems (Art. 20, comma 4). Banca d'Italia, CONSOB and IVASS retain their role as market surveillance authorities for the financial sector (pursuant to Art. 74(6) of the AI Act).
+
+**Source:** Regulation (EU) 2024/1689 (AI Act); Legge 23 settembre 2025, n. 132 (Disposizioni e deleghe al Governo in materia di intelligenza artificiale).
+
+**Notes:** Key points for Italian compliance:
+1. **Garante competence over AI and personal data**: the Garante per la protezione dei dati personali retains its existing competences, tasks and powers regarding the processing of personal data (Art. 20, comma 4, L. 132/2025). In practice, the GDPR-related obligations that intersect with the AI Act (transparency, DPIA, data subject rights) fall under the Garante's enforcement authority. Note that this does not constitute an exclusive attribution of competence over AI systems — AGID, ACN and sector-specific authorities (Banca d'Italia, CONSOB, IVASS) retain their respective roles as defined by the law.
+2. **ChatGPT precedent (Provvedimento 30 March 2023, doc. web 9870832)**: the Garante's temporary ban on ChatGPT in Italy in March 2023 — the first enforcement action against a generative AI system in Europe — established key principles: (a) AI services must provide an information notice under Art. 13 GDPR, (b) a valid legal basis must be identified for training data, (c) age verification mechanisms are required for services accessible to minors. The service was allowed to resume after implementing corrective measures.
+3. **Transparency obligations**: websites using AI-powered chatbots, virtual assistants, or automated decision-making systems must inform users of the AI interaction (Art. 50 AI Act), in addition to GDPR Art. 13 and 22 obligations. The Garante's enforcement approach treats these obligations as complementary.
+4. **DPIA for AI systems**: the Garante's list of processing operations requiring a DPIA (published pursuant to Art. 35(4) GDPR) includes processing involving "innovative technologies" — AI systems fall within this category. A DPIA is therefore generally required before deploying AI features that process personal data on an Italian website.
+
+See also [section 4.46](../docs/04-privacy-policy.md), [section 4.47](../docs/04-privacy-policy.md), and [section 6.3](../docs/06-regulatory-evolution.md) in the EU-wide requirements.

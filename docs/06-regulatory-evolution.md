@@ -33,3 +33,45 @@ European supervisory authorities have significantly stepped up enforcement activ
 **Practical impact:** Enforcement risk is real and growing. A banner that is formally compliant on paper is no longer sufficient — the design must be substantively fair and free of dark patterns.
 
 ---
+
+## 6.3 AI Act — Regulation (EU) 2024/1689
+
+**Status:** Published on 12 July 2024. Phased entry into force:
+- **2 February 2025**: prohibitions on unacceptable-risk AI systems (Art. 5)
+- **2 August 2025**: obligations for general-purpose AI models (Chapter V)
+- **2 August 2026**: full application of high-risk AI system obligations and transparency obligations (Art. 50)
+
+The AI Act introduces transparency obligations that directly affect privacy notices for websites and services using AI:
+
+1. **Art. 50(1) — AI interaction disclosure**: providers must inform users when they are interacting with an AI system (chatbots, virtual assistants, AI-powered customer service). This requires either a notice in the privacy policy or a just-in-time disclosure in the interface.
+2. **Art. 50(2) — AI-generated content marking**: synthetic content (text, images, audio, video) must be marked as AI-generated in a machine-readable format.
+3. **Art. 26(11) — High-risk AI deployer obligations**: deployers of high-risk AI (Annex III) that make decisions or assist in making decisions related to natural persons must inform those persons that they are subject to a high-risk AI system. Combined with Art. 22 GDPR, this creates a dual transparency obligation.
+4. **Art. 86 — Right to explanation**: affected persons have the right to clear explanations of AI-assisted decisions.
+
+**Interaction with GDPR:** The AI Act and GDPR apply cumulatively. Art. 2(7) AI Act explicitly states that the regulation is "without prejudice to" the GDPR. This means:
+- AI transparency obligations under Art. 50 do not replace GDPR obligations under Art. 13–14 and Art. 22 — both must be satisfied
+- DPIAs under Art. 35 GDPR are required for high-risk AI systems that process personal data
+- The right to explanation (Art. 86 AI Act) complements the GDPR right to "meaningful information about the logic involved" (Art. 13(2)(f) / Art. 15(1)(h))
+
+**Source:** [Regulation (EU) 2024/1689 — Official text](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
+
+**Practical impact:** Websites using AI-powered features (chatbots, recommendation engines, automated moderation, dynamic pricing, AI-generated content) must update their privacy notices to include AI Act disclosures by 2 August 2026. It is recommended to begin adapting privacy notices in advance, as GDPR obligations on automated decision-making (Art. 22) already require much of this transparency.
+
+---
+
+## 6.4 NIS2 Directive — Directive (EU) 2022/2555
+
+**Status:** In force. National transposition deadline: 17 October 2024. Most Member States have transposed or are in the process of transposing.
+
+The NIS2 Directive on cybersecurity significantly expands the scope of cybersecurity obligations to include a wide range of "essential" and "important" entities across sectors including digital infrastructure, ICT service management, and digital providers.
+
+**Relevance to privacy notices:** NIS2 does not directly impose privacy notice obligations, but it affects GDPR compliance in the following ways:
+- **Incident notification**: NIS2 requires notification of significant cybersecurity incidents to the competent authority within 24 hours (early warning) and 72 hours (full notification). If the incident involves a personal data breach, the GDPR 72-hour notification under Art. 33 also applies — both obligations run in parallel.
+- **Security measures**: NIS2 mandates risk-based cybersecurity measures (Art. 21) that overlap with GDPR Art. 32 security obligations. The security measures described in the privacy notice (see Section 4.42) should reflect NIS2 compliance where applicable.
+- **Supply chain security**: NIS2 requires entities to assess cybersecurity risks in their supply chains, which aligns with GDPR Art. 28 processor due diligence.
+
+**Source:** [Directive (EU) 2022/2555 — Official text](https://eur-lex.europa.eu/eli/dir/2022/2555/oj)
+
+**Practical impact:** Entities subject to NIS2 should ensure that their privacy notices and security disclosures reflect the enhanced cybersecurity posture required by NIS2, and that incident response procedures cover both NIS2 and GDPR notification obligations.
+
+---
