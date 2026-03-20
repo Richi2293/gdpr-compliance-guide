@@ -328,11 +328,11 @@ See also [section 4.49](../docs/04-privacy-policy.md) in the EU-wide requirement
 
 ---
 
-### IT-26 AI Act Implementation in Italy (D.Lgs. Recepimento AI Act)
+### IT-26 AI Act Implementation in Italy (Legge n. 132/2025)
 
-**Requirement:** Italy is in the process of adopting national implementation measures for the AI Act (Reg. 2024/1689). The Italian government has identified AGID (Agenzia per l'Italia Digitale) and ACN (Agenzia per la Cybersicurezza Nazionale) as the national competent authorities for AI oversight, with the Garante retaining exclusive competence over AI systems that process personal data.
+**Requirement:** Italy has adopted national implementation measures for the AI Act (Reg. 2024/1689) with Legge n. 132/2025 (in force since 10 October 2025). The law designates AGID (Agenzia per l'Italia Digitale) as the national notification authority and ACN (Agenzia per la Cybersicurezza Nazionale) as the national supervisory authority for AI oversight, with the Garante retaining exclusive competence over AI systems that process personal data.
 
-**Source:** Regulation (EU) 2024/1689 (AI Act); DDL italiano sull'intelligenza artificiale (AS 1146).
+**Source:** Regulation (EU) 2024/1689 (AI Act); Legge 21 luglio 2025, n. 132 (Disposizioni e deleghe al Governo in materia di intelligenza artificiale).
 
 **Notes:** Key points for Italian compliance:
 1. **Garante competence over AI and personal data**: the Garante per la protezione dei dati personali retains exclusive competence for all aspects of AI systems that involve the processing of personal data. This means that the GDPR-related obligations of the AI Act (transparency, DPIA, data subject rights) are enforced by the Garante, not by AGID or ACN.
