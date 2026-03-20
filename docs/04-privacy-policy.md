@@ -473,3 +473,130 @@ Avoid disclosing: specific software versions, firewall configurations, internal 
 **Source:** Art. 13(1)(e) GDPR (recipients); Art. 28 GDPR (processors); Art. 44–49 GDPR (international transfers).
 
 **Notes:** For each infrastructure provider, the information notice should indicate: (a) the provider's name and role (processor or independent controller), (b) the type of data processed (IP address, HTTP headers, etc.), (c) the location of data processing (EU or non-EU region), (d) the safeguard mechanism for non-EEA transfers (adequacy decision, SCCs, DPF, BCRs), (e) a link to the provider's privacy policy or DPA. Common infrastructure services to disclose: hosting providers (e.g., AWS, Vercel, Netlify), CDN services (e.g., CloudFront, Cloudflare), DNS providers, WAF/DDoS protection services, transactional email services (e.g., SES, SendGrid). See Section 5.9 for the full technical and contractual requirements for infrastructure services.
+
+---
+
+### 4.44 Special categories of data (Art. 9 GDPR)
+
+**Requirement:** The processing of special categories of personal data is prohibited unless one of the exceptions under Art. 9(2) GDPR applies. If the website or service processes special category data, the information notice must explicitly identify: (a) the categories of sensitive data processed, (b) the applicable exception under Art. 9(2), (c) any additional safeguards in place.
+
+**Source:** Art. 9 GDPR; Art. 13(1)(c) GDPR (purposes and legal basis); Recital 51 GDPR.
+
+**Notes:** Special categories of data include: racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data for identification purposes, health data, data concerning sex life or sexual orientation. Common website scenarios where special category data may arise:
+- **Health and wellness platforms**: symptom checkers, appointment booking with medical specialisation, fitness tracking, mental health services
+- **Dating and social platforms**: sexual orientation, religious beliefs, ethnic origin in user profiles
+- **Legal services**: data revealing political opinions, trade union membership, or criminal proceedings in consultation forms
+- **Employment/HR portals**: disability status, health declarations, ethnic monitoring data
+- **Association and community websites**: religious or political affiliation implied by membership
+- **Contact forms with open text fields**: users may voluntarily disclose sensitive information in free-text messages — the controller should include a notice advising users not to include sensitive data unless necessary, and document how such data is handled if received unsolicited
+
+Applicable exceptions under Art. 9(2) for websites:
+- **(a) Explicit consent**: the most common basis — requires a distinct, specific consent act (separate from general consent), with clear indication of the sensitive nature of the data
+- **(b) Employment and social protection**: for HR portals processing health/disability data under employment law obligations
+- **(e) Data manifestly made public**: for data the data subject has deliberately published (e.g., public social media profile information)
+- **(h) Health care purposes**: for telemedicine and health service platforms, subject to professional secrecy obligations
+
+If the website does not process special category data, it is good practice to state this explicitly in the information notice. See individual country pages for national derogations under Art. 9(4) GDPR.
+
+---
+
+### 4.45 Data relating to criminal convictions and offences (Art. 10 GDPR)
+
+**Requirement:** The processing of personal data relating to criminal convictions and offences, or related security measures, may only be carried out under the control of an official authority, or when authorised by EU or Member State law providing for appropriate safeguards. The information notice must disclose this processing if applicable.
+
+**Source:** Art. 10 GDPR; Art. 13(1)(c) GDPR (purposes and legal basis).
+
+**Notes:** This is relevant for websites that:
+- **Job application portals**: require criminal record certificates or self-declarations of criminal history as part of the recruitment process
+- **Background check services**: process data on criminal convictions for vetting purposes
+- **Platform trust and safety**: maintain internal records of users banned for illegal activity
+- **Financial services**: process data on fraud convictions for anti-money laundering compliance
+
+Art. 10 processing requires authorisation by EU or Member State law. In practice, most websites cannot rely on consent alone for this type of processing — a specific legal basis in national law is required. See individual country pages for national provisions (e.g., Art. 2-octies D.Lgs. 196/2003 for Italy).
+
+If the website does not process criminal conviction data, this section may be omitted from the information notice.
+
+---
+
+### 4.46 Chatbots and conversational AI
+
+**Requirement:** If the website uses chatbots (rule-based or AI-powered), the information notice must disclose: (a) the data collected through the chatbot interaction (user inputs, conversation logs, metadata), (b) the purposes of processing, (c) the legal basis, (d) the retention period for conversation logs, (e) whether conversations are used for training or improving the AI model, (f) the identity of the chatbot provider (if a third-party service).
+
+**Source:** Art. 13(1)(c)(e) GDPR (purposes, recipients); Art. 13(2)(a) GDPR (retention); Art. 22 GDPR (automated decision-making); Art. 50 Regulation (EU) 2024/1689 (AI Act — transparency obligations).
+
+**Notes:** Chatbot interactions generate personal data: the text entered by the user, timestamps, session identifiers, and potentially any personal information disclosed in the conversation (name, email, health conditions, financial situation). Key requirements:
+
+1. **Transparency of AI interaction**: Under Art. 50(1) of the AI Act (Reg. 2024/1689), providers must ensure that natural persons are informed they are interacting with an AI system, unless this is obvious from the circumstances. This applies from 2 August 2026 for general-purpose AI systems. The information notice (or a just-in-time notice within the chat interface) must clearly state that the user is communicating with an automated system.
+2. **Data minimisation**: chatbot logs should not retain the full conversation indefinitely. Define a retention period proportionate to the purpose (e.g., 30 days for service improvement, session-only for real-time assistance).
+3. **Training data**: if conversation data are used to train or fine-tune AI models, this constitutes a distinct processing purpose requiring a separate legal basis (typically consent or legitimate interest with a documented balancing test). The user must be informed of this purpose and given the right to object.
+4. **Third-party providers**: if the chatbot is powered by a third-party service (e.g., OpenAI, Google Dialogflow, Microsoft Azure Bot Service, Intercom, Drift), the provider must be identified as a processor or independent controller in the information notice, with applicable DPA and transfer safeguards.
+5. **Automated decisions**: if the chatbot makes decisions that produce legal effects or similarly significant effects (e.g., loan pre-approval, insurance assessment, eligibility determination), Art. 22 GDPR applies — see Section 4.20.
+6. **Special category data**: if the chatbot is used in health, legal, or counselling contexts, users may disclose sensitive information — apply the safeguards of Section 4.44.
+
+---
+
+### 4.47 AI-driven processing and AI Act transparency obligations
+
+**Requirement:** If the website or service uses artificial intelligence systems for processing personal data, the information notice must disclose: (a) the existence of AI-driven processing, (b) the type of AI system and its purpose, (c) whether the AI system produces outputs that affect the data subject, (d) the right to human intervention where applicable.
+
+**Source:** Art. 13(2)(f) GDPR (automated decision-making); Art. 22 GDPR (decisions based solely on automated processing); Regulation (EU) 2024/1689 (AI Act), in particular Art. 50 (transparency obligations), Art. 26(7) (deployer obligations for high-risk AI), Art. 86 (right to explanation).
+
+**Notes:** The AI Act (Reg. 2024/1689), published on 12 July 2024, introduces transparency obligations that complement the GDPR. Key provisions relevant to privacy notices:
+
+1. **Art. 50(1) — Notification of AI interaction**: providers of AI systems designed to interact with natural persons must ensure that the person is informed they are interacting with an AI system, unless this is obvious from the circumstances and context of use. This obligation applies from 2 August 2026.
+2. **Art. 50(2) — AI-generated content**: providers of AI systems that generate synthetic content (text, images, audio, video) must ensure that the output is marked in a machine-readable format as artificially generated or manipulated. If the website generates AI content visible to users (e.g., AI-written product descriptions, AI-generated images), this must be disclosed.
+3. **Art. 50(3) — Emotion recognition and biometric categorisation**: deployers of emotion recognition or biometric categorisation systems must inform exposed persons that such systems are in operation. These systems are subject to heightened transparency requirements.
+4. **Art. 50(4) — Deep fakes**: deployers who publish or distribute AI-generated content that resembles existing persons, places, or events must disclose that the content is artificially generated or manipulated.
+5. **Art. 26(7) — Deployer obligations for high-risk AI**: deployers of high-risk AI systems that make decisions about natural persons must inform those persons that they are subject to the use of the high-risk AI system. This is complementary to Art. 22 GDPR.
+6. **Art. 86 — Right to explanation**: affected persons have the right to obtain clear and meaningful explanations of the role of the AI system in the decision-making procedure and the main elements of the decision taken.
+
+Practical implications for privacy notices:
+- If the website uses AI-powered recommendation engines, content personalisation, dynamic pricing, or automated moderation, disclose this in the information notice with sufficient detail about the logic involved
+- If AI processes user data for profiling purposes, the GDPR requirements of Art. 22 and the AI Act requirements of Art. 50 apply cumulatively
+- The interaction between GDPR and AI Act does not create exemptions — both must be satisfied independently
+- For high-risk AI systems (as classified in Annex III of the AI Act), the deployer must conduct a Data Protection Impact Assessment (DPIA) under Art. 35 GDPR in addition to complying with AI Act requirements
+
+---
+
+### 4.48 Right to compensation (Art. 82 GDPR)
+
+**Requirement:** Any person who has suffered material or non-material damage as a result of an infringement of the GDPR has the right to receive compensation from the controller or processor.
+
+**Source:** Art. 82 GDPR; Recital 146 GDPR.
+
+**Notes:** Art. 82 is not listed among the mandatory contents of Art. 13 GDPR and is therefore not a formal requirement of the information notice. However, including a reference to the right to compensation enhances transparency and is considered good practice, particularly for services that process large volumes of personal data or sensitive data. Key points:
+- The controller is liable for damage caused by processing that infringes the GDPR
+- The processor is liable only for damage caused by processing that does not comply with processor-specific obligations (Art. 28) or that goes beyond the controller's instructions
+- The controller is exempt from liability only if it proves that it is "not in any way responsible for the event giving rise to the damage" (Art. 82(3))
+- CJEU case law (C-300/21, Österreichische Post, 4 May 2023) confirms that non-material damage does not require a minimum threshold of seriousness — any infringement that causes distress, anxiety, or loss of control over personal data may give rise to compensation
+
+If included in the information notice, a brief statement is sufficient: "You have the right to claim compensation if you suffer damage as a result of a violation of your data protection rights (Art. 82 GDPR)."
+
+---
+
+### 4.49 Recruitment and job application data
+
+**Requirement:** If the website includes a careers section, job application forms, or any mechanism for collecting candidate data (CVs, cover letters, professional profiles), the information notice must include specific provisions for the processing of recruitment data.
+
+**Source:** Art. 13 GDPR; Art. 6(1)(b) GDPR (pre-contractual measures); Art. 9(2)(b) GDPR (employment law obligations); Art. 88 GDPR (processing in the employment context).
+
+**Notes:** Recruitment data requires dedicated attention in the information notice because: (a) CVs and application forms contain a wide range of personal data (identity, contact details, education, work history, photographs, references), (b) candidates may disclose special category data (disability status, health information, ethnic origin for diversity monitoring), (c) retention periods for unsolicited and solicited applications differ, (d) the legal basis changes depending on the stage of the recruitment process.
+
+The information notice for recruitment should specify:
+
+1. **Categories of data collected**: identification data, contact details, education and training history, work experience, language skills, professional qualifications, references, photographs (if submitted), cover letter content, and any data voluntarily disclosed by the candidate.
+2. **Purposes**: evaluation of candidacy, management of the selection process, compliance with legal obligations (e.g., mandatory hiring quotas for protected categories), potential future contact for new positions.
+3. **Legal bases**:
+   - Art. 6(1)(b) — pre-contractual measures at the request of the data subject (for evaluating the application)
+   - Art. 6(1)(c) — legal obligations (e.g., retention of documentation for labour inspections, mandatory hiring of protected categories)
+   - Art. 6(1)(a) — consent (for retaining the CV beyond the current selection process for future opportunities)
+   - Art. 9(2)(b) — employment and social protection law (for processing disability or health data as required by law)
+4. **Retention periods**: specify separately for (a) applications related to an active position (typically retained for the duration of the selection process plus a reasonable period for potential disputes, e.g., 12–24 months), (b) spontaneous/unsolicited applications (consent-based, with a defined retention period, e.g., 12 months), (c) data of hired candidates (transferred to the employment file with a different retention period and legal basis).
+5. **Consent for future opportunities**: if the controller wishes to retain a candidate's data for future positions beyond the current selection process, specific consent must be obtained. This consent must be distinct from the application itself and must indicate the retention period.
+6. **Automated screening**: if the controller uses automated CV screening, keyword-based filtering, or AI-powered candidate assessment tools, Art. 22 GDPR applies (see Section 4.20) and Art. 50 of the AI Act may apply (see Section 4.47).
+7. **Third-party recruitment platforms**: if applications are collected via third-party platforms (LinkedIn, Indeed, Glassdoor), the privacy notice must indicate these as data sources under Art. 14 GDPR (see Section 4.41) and specify the data received from each platform.
+8. **References and background checks**: if the controller contacts references or conducts background checks, the candidate must be informed in advance (Art. 14 timing rules apply).
+
+See individual country pages for national employment law provisions that may impose additional requirements on recruitment data processing.
+
+---
