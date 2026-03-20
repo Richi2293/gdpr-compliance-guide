@@ -128,10 +128,11 @@ Minimum expected structure for a compliant privacy policy. Can be used to verify
 1. Title and last updated date                                  → Ref. 4.30
 2. Identity and contact details of the controller              → Ref. 4.6
 3. DPO contact details (if appointed)                          → Ref. 4.7
-4. Types of data collected                                     → Ref. 4.8
+4. Types of data collected                                     → Ref. 4.40
    4a. Navigation data (server logs, IP)                       → Ref. 4.38
    4b. Voluntarily provided data (forms, registration)
    4c. Data from third parties (social login, if applicable)   → Ref. 4.33
+   4d. Data not collected from the data subject (Art. 14)      → Ref. 4.41
 5. Processing purposes and legal basis for each                → Ref. 4.8
 6. Legitimate interests pursued (if applicable)                → Ref. 4.9
 7. Mandatory or optional nature of data provision              → Ref. 4.23
@@ -153,10 +154,11 @@ Minimum expected structure for a compliant privacy policy. Can be used to verify
 12. How to exercise rights (contacts, form)                    → Ref. 4.37
 13. Right to lodge a complaint with a supervisory authority    → Ref. 4.21
 14. Consent of minors (if applicable)                          → Ref. 4.26
+    14b. Data of deceased persons (national provisions)        → Ref. 4.27
 15. Direct marketing and soft opt-in (if applicable)           → Ref. 4.28
 16. Joint controllership (if applicable)                       → Ref. 4.11
-17. Security measures                                          → Ref. 5.6
-18. Infrastructure services (hosting, CDN)                     → Ref. 5.9
+17. Security measures                                          → Ref. 4.42, 5.6
+18. Infrastructure services (hosting, CDN)                     → Ref. 4.43, 5.9
 19. Territorial scope (if relevant)                            → Ref. 4.39
 20. Changes to the privacy policy                              → Ref. 4.24
 ```
